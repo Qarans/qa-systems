@@ -1,0 +1,68 @@
+{% extends 'front/template/user/main' %}
+
+{% block singleScript %}
+	{{HTML_style('css/plugin/datepicker.css')|raw}}
+	{{HTML_script('js/plugin/bootstrap-datepicker.js')|raw}}
+	{{HTML_script('js/_posts.js')|raw}}
+	{% include 'front/template/component/asset_mokki_editor' %}
+{% endblock %}
+
+{% block content %}
+	<div class="row">
+		<div class="page-header text-center">
+		{% if edit_data %}
+			<h1>Ubah post</h1>
+		{% else %}
+			<h1>Daftarkan post baru</h1>
+		{% endif %}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 messageArea">
+		</div>
+		{% if edit_data %}
+			{{Form_model(post, {'url':URL_route('posts.update', post.id), 'class':'submitUserData', 'method':'PUT'})|raw}}
+		{% else %}
+			{{Form_open({'url':URL_route('posts.store'), 'class':'submitUserData'})|raw}}
+		{% endif %}
+			<div class="col-lg-8 col-lg-offset-2">
+				<div class="form-group">
+					<div class="row">
+						<div class="col-lg-8">
+							<label for="name">Nama</label>
+							{{Form_text('name', Input_old('name'), {'id':'name', 'placeholder':'Masukkan Nama Awal', 'class':'form-control', 'required':true})|raw}}
+						</div>
+						<div class="col-lg-4">
+							<label for="type">Post Type</label>
+							{% set typeList = {
+								1 : 'News',
+								2 : 'Inspiration',
+								3 : 'Promotion',
+							}%}
+							{{Form_select('type', typeList, Input_old('type'), {'id':'type', 'placeholder':'Masukkan Nama Awal', 'class':'form-control', 'required':true})|raw}}
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="row">
+						<div class="col-lg-12">
+							<label for="mokkiTextEmbed">Content</label>
+							<section class="mokkiEditor decription" style="width:722px;">
+								{{Form_textarea('content', Input_old( 'content'), {'id':'mokkiTextEmbed', 'placeholder':'Masukkan Deskripsi Produk', 'class':'form-control', 'novalidate':''})|raw}}
+							</section>
+						</div>
+					</div>
+				</div>
+				<div class="form-group text-center">
+					<br/>
+					<br/>
+					<button class="btn btn-lg btn-primary btn-submit">Lanjut <i class="fa fa-chevron-right"></i></button>
+					{% if edit_data %}
+						<a href="?photo=true" class="btn btn-lg btn-primary btn-submit">Ubah Gambar <i class="fa fa-picture-o"></i></a>
+					{% endif %}
+				</div>
+			</div>
+		{{Form_close()|raw}}
+	</div>
+
+{% endblock %}

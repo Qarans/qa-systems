@@ -1,0 +1,50 @@
+{% extends 'front/template/user/main' %}
+
+{% block singleScript %}
+	{{HTML_script('js/_admins.js')|raw}}
+{% endblock %}
+
+{% block content %}
+{% set typeList = {
+	1 : 'News',
+	2 : 'Inspiration',
+	3 : 'Promotion',
+}%}
+<div class="row">
+	<div class="col-lg-12">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#home" data-toggle="tab">Product</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="home">
+						<table class="table table-bordered table-tampil-user">
+							<tr>
+								<td>Name</td>
+								<td>{{post.name}}</td>
+							</tr>
+							<tr>
+								<td>Type</td>
+								<td>
+									{{ attribute( typeList, post.type) }}
+									{% if post.type == 0 %}
+										There's no type for this post
+									{% endif %}
+								</td>
+							</tr>
+							<tr>
+								<td>Content</td>
+								<td>{{post.content|raw}}</td>
+							</tr>
+						</table>
+						<br/>
+						{{HTML_link(URL_route('posts.edit', post.id), 'Ubah data', {'class':'btn btn-warning'})|raw}}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

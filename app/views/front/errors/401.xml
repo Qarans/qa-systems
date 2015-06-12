@@ -1,0 +1,14 @@
+{% extends 'front/errors/base' %}
+{% block content %}
+	<div class="error-page">
+		<h2 class="headline text-info"> 401</h2>
+		<div class="error-content">
+			<h3><i class="fa fa-warning text-yellow"></i> Oops! You Unauthorized.</h3>
+			<p>
+				Anda tidak dapat mengakses halaman yang anda minta, hanya pengguna berwenang.
+				Sementara, anda dapat <a href='{{URL_route('homepage')}}'>kembali ke halaman utama </a><Br/>
+				Terimakasih
+			</p>
+		</div>
+	</div>
+{% endblock %}

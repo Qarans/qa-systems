@@ -1,0 +1,48 @@
+.stepArea {
+    position: relative;
+    margin-bottom: 32px;
+}
+.stepArea .stepRows{
+    position: absolute;
+    width: 103%;
+    height: 10px;
+    background: #F3F3F3;
+    top: 39%;
+    border-radius: 4px;
+    z-index: 0;
+}
+.stepArea .stepRows small{
+    margin-left: 52px;
+    margin-top: -18px;
+    display: block;
+    color: #D5D4D4;
+}
+.stepCols:last-child .stepRows {
+    width: 91%;
+}
+.stepArea .stepCols{
+    position: relative;
+}
+.stepSign {
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    padding: 3px 13px;
+    background: #F7F7F7 !important;
+    border: none;
+}
+.stepSign h1 {
+    margin:0px;
+    padding: 0px;
+    display: inline-block;
+}
+.stepActive {}
+.stepActive .stepSign {
+    background: #FF7A00 !important;
+}
+.stepActive .stepRows {
+    background: #FFD58A;
+}
+.stepActive .stepRows small {
+    color: #8D8377;
+}

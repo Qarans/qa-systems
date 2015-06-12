@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+<title>{{title}} - JAYABOARD USG Boral</title>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+<!-- bootstrap -->
+{{HTML_style('css/bootstrap.min.css')|raw}}
+<!-- font Awesome -->
+{{HTML_style('css/font-awesome.min.css')|raw}}
+<!-- Ionicons -->
+{{HTML_style('css/ionicons.min.css')|raw}}
+<!-- Theme style -->
+{{HTML_style('css/AdminLTE.css')|raw}}
+<link rel="icon" type="image/x-icon" href="{{URL_to('/')}}/img/favicon.ico"/>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->

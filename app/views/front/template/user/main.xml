@@ -1,0 +1,45 @@
+{% extends 'front/template/base' %}
+
+{% block baseContent %}
+    {% include 'front/template/component/header' %}
+    <div class="wrapper row-offcanvas row-offcanvas-left">
+        <aside class="left-side sidebar-offcanvas">                
+            {% include 'front/template/component/sidebar' %}
+        </aside>
+
+        <aside class="right-side">                
+            <section class="content-header">
+                <h1>
+                    {{title}}
+                    <small>{{subtitle}}</small>
+                </h1>
+            </section>
+
+            <section class="content">
+                {% if Session_has('error') %}
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="alert alert-danger">
+                                {% for e in errors.all() %}
+                                    <li>{{ e }}</li>
+                                {% endfor %}
+                                    <li>{{Session_get('error')}}</li>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+                {% if Session_has('success') or Input_has('success')%}
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="alert alert-success">
+                                {{Session_get('success')}}
+                                {{Input_get('success')}}
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}                
+                {% block content %}{% endblock %}
+            </section>
+        </aside>
+    </div>
+{% endblock %}

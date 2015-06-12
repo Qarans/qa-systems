@@ -1,0 +1,61 @@
+{% extends 'front/template/user/main' %}
+
+{% block singleScript %}
+	{{HTML_script('js/_locations.js')|raw}}
+	{% include 'front/locations/jsMaps_region.xml'  %}
+	{% include 'front/template/component/asset_mokki_editor' %}
+{% endblock %}
+
+{% block content %}
+	<div class="row">
+		<div class="page-header text-center">
+		{% if edit_data %}
+			<h1>Ubah Wilayah</h1>
+		{% else %}
+			<h1>Daftarkan Wilayah</h1>
+		{% endif %}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 messageArea">
+		</div>
+		{% if edit_data %}
+			{{Form_model(location, {'url':URL_route('locations.update', location.id), 'class':'submitUserData', 'method':'PUT'})|raw}}
+		{% else %}
+			{{Form_open({'url':URL_route('locations.store'), 'class':'submitUserData'})|raw}}
+		{% endif %}
+			{{Form_hidden('location_type', 'region')|raw}}
+			<div class="col-lg-10 col-lg-offset-1">
+				<div class="form-group">
+					<div class="row">
+						<div class="col-lg-5">
+							<label for="name">Nama</label>
+							{{Form_text('name', Input_old('name'), {'id':'name', 'placeholder':'Masukkan Nama Awal', 'class':'form-control', 'required':true})|raw}}
+						</div>
+						<div class="col-lg-4">
+							<label for="name">Pilih Lokasi</label>
+							{{Form_select('location_id', select_data, (location.location_id is not empty ) ? location.location_id : Input_get('location_id') , {'class':'form-control'})|raw}}
+						</div>
+						<div class="col-lg-3">
+							<button style="margin-top:17px;" class="btn btn-lg btn-block btn-primary btn-submit">Simpan {% if edit_data %}Perubahan{% endif %} <i class="fa fa-chevron-right"></i></button>
+						</div>
+					</div>
+				</div>
+				{% if edit_data %}
+					<div class="form-group">
+						<div class="row">
+							<div class="col-lg-12">
+							<label for="country">Peta Cabang</label>
+								<div id="map-canvas" style="height:450px; margin-bottom:50px;"></div>
+								{% for b in location.branch %}
+									<span class="mapLocation" data-lat="{{b.lat}}" data-url="{{URL_route('locations.edit', location.id)}}?branch_id={{b.id}}" data-name="{{b.name}}" data-lng="{{b.lng}}"></span>
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+				{% endif %}
+			</div>
+		{{Form_close()|raw}}
+	</div>
+
+{% endblock %}

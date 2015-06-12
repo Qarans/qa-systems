@@ -1,0 +1,45 @@
+{% extends 'front/template/user/main' %}
+
+{% block singleScript %}
+	{{HTML_script('js/_locations.js')|raw}}
+	{% include 'front/template/component/asset_mokki_editor' %}
+{% endblock %}
+
+{% block content %}
+	<div class="row">
+		<div class="page-header text-center">
+		{% if edit_data %}
+			<h1>Ubah Lokasi</h1>
+		{% else %}
+			<h1>Daftarkan Lokasi</h1>
+		{% endif %}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 messageArea">
+		</div>
+		{% if edit_data %}
+			{{Form_model(location, {'url':URL_route('locations.update', location.id), 'class':'submitUserData', 'method':'PUT'})|raw}}
+		{% else %}
+			{{Form_open({'url':URL_route('locations.store'), 'class':'submitUserData'})|raw}}
+		{% endif %}
+			{{Form_hidden('location_type', 'location')|raw}}
+			<div class="col-lg-8 col-lg-offset-2">
+				<div class="form-group">
+					<div class="row">
+						<div class="col-lg-6 col-lg-offset-3">
+							<label for="name">Nama</label>
+							{{Form_text('name', Input_old('name'), {'id':'name', 'placeholder':'Masukkan Nama Awal', 'class':'form-control', 'required':true})|raw}}
+						</div>
+					</div>
+				</div>
+				<div class="form-group text-center">
+					<br/>
+					<br/>
+					<button class="btn btn-lg btn-primary btn-submit">Lanjut <i class="fa fa-chevron-right"></i></button>
+				</div>
+			</div>
+		{{Form_close()|raw}}
+	</div>
+
+{% endblock %}

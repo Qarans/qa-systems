@@ -1,0 +1,40 @@
+{% extends 'front/template/user/main' %}
+
+{% block singleScript %}
+	{{HTML_script('js/_admins.js')|raw}}
+{% endblock %}
+
+{% block content %}
+<div class="row">
+	<div class="col-lg-12">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#home" data-toggle="tab">Product</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="home">
+						<table class="table table-bordered table-tampil-user">
+							<tr>
+								<td>Name</td>
+								<td>{{product.name}}</td>
+							</tr>
+							<tr>
+								<td>Category</td>
+								<td>{{product.category.name}}</td>
+							</tr>
+							<tr>
+								<td>Content</td>
+								<td>{{product.content|raw}}</td>
+							</tr>
+						</table>
+						<br/>
+						{{HTML_link(URL_route('products.edit', product.id), 'Ubah data', {'class':'btn btn-warning'})|raw}}
+					</div>
+				</div>			
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

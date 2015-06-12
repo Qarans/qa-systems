@@ -1,0 +1,27 @@
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+<script>
+
+function initialize() {
+    var first = $( ".mapLocation" ).first();
+    var myLatlng = new google.maps.LatLng(first.data('lat'), first.data('lng'));
+    var mapOptions = {
+      zoom: 14,
+      center: myLatlng
+    }
+    var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+    $( ".mapLocation" ).each( function(){
+      var myLatlng = new google.maps.LatLng($(this).data('lat'), $(this).data('lng'));
+      var marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          url: $(this).data('url'),
+          title: $(this).data('name'),
+      });
+      google.maps.event.addListener(marker, 'click', function() {
+        window.location.href = marker.url;
+      });
+    });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+    </script>

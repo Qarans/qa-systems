@@ -1,0 +1,70 @@
+{% extends 'front/template/user/main' %}
+
+{% block singleScript %}
+	{{HTML_style('css/plugin/datepicker.css')|raw}}
+	{{HTML_style('css/plugin/step.css')|raw}}
+	{{HTML_script('js/plugin/bootstrap-datepicker.js')|raw}}
+	{{HTML_script('js/_users.js')|raw}}
+{% endblock %}
+
+{% block content %}
+	<div class="row">
+		<div class="page-header text-center">
+		{% if edit_data %}
+			<h1>Ubah akun</h1>
+		{% else %}
+			<h1>Daftarkan akun baru</h1>
+		{% endif %}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 messageArea">
+		</div>
+		{% if edit_data %}
+			{{Form_model(user, {'url':URL_route('users.update', user.id), 'class':'submitUserData', 'method':'PUT'})|raw}}
+		{% else %}
+			{{Form_open({'url':URL_route('users.store'), 'class':'submitUserData'})|raw}}
+		{% endif %}
+			<div class="col-lg-8 col-lg-offset-2">
+				<div class="form-group">
+					<div class="row">
+						<div class="col-lg-12">
+							<label for="gcm_id">GCM ID</label>
+							{{Form_text('gcm_id', Input_old('gcm_id'), {'id':'gcm_id', 'placeholder':'Masukkan Nama Awal', 'class':'form-control', 'required':true})|raw}}
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="row">
+						<div class="col-lg-6">
+							<label for="name">Nama</label>
+							{{Form_text('name', Input_old('name'), {'id':'name', 'placeholder':'Masukkan Nama Awal', 'class':'form-control', 'required':true})|raw}}
+						</div>
+						<div class="col-lg-6">
+							<label for="email">Alamat E-mail</label>
+							{{Form_email('email', Input_old('email'), {'id':'email', 'placeholder':'Masukkan alamat E-mail', 'class':'form-control', 'required':true})|raw}}
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="row">
+						<div class="col-lg-6">
+							<label for="password">Password</label>
+							{{Form_password('password', {'id':'password', 'placeholder':'Masukkan Password', 'class':'form-control', 'req':true})|raw}}
+						</div>
+						<div class="col-lg-6">
+							<label for="password_confirmation">Ulangi Password</label>
+							{{Form_password('password_confirmation', {'class':'form-control', 'id':'password_confirmation', 'placeholder':'Ulangi Password', 'req':true})|raw}}
+						</div>
+					</div>
+				</div>
+				<div class="form-group text-center">
+					<br/>
+					<br/>
+					<button class="btn btn-lg btn-primary btn-submit">Lanjut <i class="fa fa-chevron-right"></i></button>
+				</div>
+			</div>
+		{{Form_close()|raw}}
+	</div>
+
+{% endblock %}

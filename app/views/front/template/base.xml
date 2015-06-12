@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include 'front/template/component/head' %}
+    </head>
+    <body class="skin-blue" data-baseurl={{URL_route('homepage')}}>
+        {% block baseContent %}{% endblock %}
+
+        {{HTML_script('js/jquery-1.8.3.min.js')|raw}}
+        {{HTML_script('js/bootstrap.min.js')|raw}}
+        {% if noAuth is empty %}
+            {{HTML_script('js/AdminLTE/app.js')|raw}}
+    	    {{HTML_script('js/_utility.js')|raw}}
+        {% endif %}
+
+        {% block singleScript %}{% endblock %}
+    </body>
+</html>

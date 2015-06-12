@@ -1,0 +1,42 @@
+{% extends 'front/template/user/main' %}
+
+{% block singleScript %}
+	{{HTML_script('js/_users.js')|raw}}
+{% endblock %}
+
+{% block content %}
+<div class="row">
+	<div class="col-lg-8 col-lg-offset-2">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#home" data-toggle="tab">Akun</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="home">
+						<table class="table table-bordered table-tampil-user">
+							<tr>
+								<td>Name</td>
+								<td>{{user.name}}</td>
+							</tr>
+							<tr>
+								<td>Email</td>
+								<td>{{user.email}}</td>
+							</tr>
+							<tr>
+								<td>GCM ID</td>
+								<td>{{user.gcm_id}}</td>
+							</tr>
+							</table>
+						<br/>
+						{% if Auth_user().id == user.id or Auth_user().role.webmaster == 1 %}
+							{{HTML_link(URL_route('users.edit', user.id), 'Ubah Akun', {'class':'btn btn-warning'})|raw}}
+						{% endif %}
+					</div>
+				</div>			
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

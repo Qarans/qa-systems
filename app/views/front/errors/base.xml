@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include 'front/template/component/head' %}
+    </head>
+    <body class="skin-blue" data-baseurl={{URL_route('homepage')}}>
+        {% block content %}{% endblock %}
+
+        {{HTML_script('js/jquery-1.8.3.min.js')|raw}}
+        {{HTML_script('js/bootstrap.min.js')|raw}}
+    </body>
+</html>

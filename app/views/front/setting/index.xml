@@ -1,0 +1,70 @@
+{% extends 'front/template/user/main' %}
+
+{% block singleScript %}
+	{{HTML_script('js/_settings.js')|raw}}
+{% endblock %}
+
+{% block content %}
+	<div class="row">
+		{{Form_model(about, {'url':URL_route('setting.about'), 'class':'submitUserData', 'method':'PUT'})|raw}}
+		<div class="col-lg-10 col-lg-offset-1">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-3">
+					<div class="page-header">
+						<h3>Nama Website</h3>
+					</div>
+					<div class="form-group">
+						{{Form_text('name', Input_old('name'), {'id':'name', 'placeholder':'Masukkan Nama Website', 'class':'form-control', 're':false})|raw}}
+						<br/>
+					</div>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<div class="page-header">
+						<h3>Nomor Telephone</h3>
+					</div>
+					<div class="form-group">
+						{{Form_text('phone', Input_old('phone'), {'id':'phone', 'placeholder':'Masukkan No. Telepon', 'class':'form-control', 're':false})|raw}}
+						<br/>
+					</div>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<div class="page-header">
+						<h3>E-mail</h3>
+					</div>
+					<div class="form-group">
+						{{Form_text('email', Input_old('email'), {'id':'email', 'placeholder':'Masukkan E-mail', 'class':'form-control', 're':false})|raw}}
+						<br/>
+					</div>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<div class="page-header">
+						<h3>Facebook</h3>
+					</div>
+					<div class="form-group">
+						{{Form_text('facebook', Input_old('facebook'), {'id':'facebook', 'placeholder':'Masukkan Username Facebook', 'class':'form-control', 're':false})|raw}}
+						<br/>
+					</div>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<div class="page-header">
+						<h3>Twitter</h3>
+					</div>
+					<div class="form-group">
+						{{Form_text('twitter', Input_old('twitter'), {'id':'twitter', 'placeholder':'Masukkan Username Twitter', 'class':'form-control', 're':false})|raw}}
+						<br/>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="form-group text-center">
+						<br/>
+						<br/>
+						<button class="btn btn-lg btn-primary btn-submit"><i class="fa fa-refresh"></i> Perbaharui Data </button>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{Form_close()|raw}}
+	</div>
+{% endblock %}

@@ -1,0 +1,1688 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"kesat",
+				"kesatuan_id"
+			],
+			[
+				"data",
+				"dataUser"
+			],
+			[
+				"Redirec",
+				"Redirect-back	Redirect-back"
+			],
+			[
+				"Req",
+				"Request-segment	Request-segment"
+			],
+			[
+				"URL-",
+				"URL-forceRootUrl	URL-forceRootUrl"
+			],
+			[
+				"Route-get",
+				"Route-get	Route-get"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"for",
+				"for	for …"
+			],
+			[
+				"res",
+				"resource"
+			],
+			[
+				"In",
+				"Input-all	Input-all"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"delete",
+				"deleted_type"
+			],
+			[
+				"kes",
+				"kestuan"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"kesa",
+				"kesatuan"
+			],
+			[
+				"mee",
+				"meetups"
+			],
+			[
+				"pas",
+				"pass"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"usr",
+				"usr_id"
+			],
+			[
+				"kesatuan",
+				"kesatuan_id"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"Input",
+				"Input-get	Input-get"
+			],
+			[
+				"metho",
+				"method"
+			],
+			[
+				"y1",
+				"y1b"
+			],
+			[
+				"new",
+				"newlocation"
+			],
+			[
+				"view",
+				"viewDir"
+			],
+			[
+				"has",
+				"hasFile"
+			],
+			[
+				"tahanan",
+				"tahanan_id"
+			],
+			[
+				"kasus",
+				"kasus_nama"
+			],
+			[
+				"se",
+				"selected"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"get",
+				"getId"
+			],
+			[
+				"kestuan",
+				"kesatuan_id"
+			],
+			[
+				"no",
+				"no_tahanan"
+			],
+			[
+				"inser",
+				"insert_data"
+			],
+			[
+				"App-",
+				"App-handle	App-handle"
+			],
+			[
+				"cl",
+				"columnList"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"Mee",
+				"MeetupsController"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"scro",
+				"scrollTo(x, y)	codemirror.js"
+			],
+			[
+				"re",
+				"ret	return"
+			],
+			[
+				"error",
+				"error(ty, x)	tiny_mce_src.js"
+			],
+			[
+				"URL",
+				"URL-route	URL-route"
+			],
+			[
+				"comun",
+				"communityUri"
+			],
+			[
+				"method",
+				"methodDetail"
+			],
+			[
+				"templat",
+				"templateId"
+			],
+			[
+				"met",
+				"meetup_id"
+			],
+			[
+				"mte",
+				"methodId"
+			],
+			[
+				"Route-curr",
+				"Route-currentRouteName	Route-currentRouteName"
+			],
+			[
+				"Route-ge",
+				"Route-getRoutes	Route-getRoutes"
+			],
+			[
+				"Route-",
+				"Route-getCurrentRoute	Route-getCurrentRoute"
+			],
+			[
+				"Route",
+				"Route-get	Route-get"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"glob",
+				"globals	$GLOBALS['…']"
+			],
+			[
+				"def",
+				"def	define(…, …)"
+			],
+			[
+				"DB_",
+				"DB_USER"
+			],
+			[
+				"PDO",
+				"PDF_open_file"
+			],
+			[
+				"PD",
+				"cairo_ps_surface_dsc_begin_page_setup"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"round",
+				"round"
+			],
+			[
+				"INput",
+				"Input-get	Input-get"
+			],
+			[
+				"Rout",
+				"Route-getControllerDispatcher	Route-getControllerDispatcher"
+			],
+			[
+				"Route-g",
+				"Route-getResourceWildcard	Route-getResourceWildcard"
+			],
+			[
+				"Config",
+				"Config-has	Config-has"
+			],
+			[
+				"user",
+				"userroles"
+			],
+			[
+				"Sche",
+				"Schema-hasTable	Schema-hasTable"
+			],
+			[
+				"Auth",
+				"Auth-user	Auth-user"
+			],
+			[
+				"Session",
+				"Session-remove	Session-remove"
+			],
+			[
+				"Sessi",
+				"Session-put	Session-put"
+			],
+			[
+				"Auh",
+				"Auth-user	Auth-user"
+			],
+			[
+				"set",
+				"setting"
+			],
+			[
+				"Route-pat",
+				"Route-pattern	Route-pattern"
+			],
+			[
+				"Route-pa",
+				"Route-pattern	Route-pattern"
+			],
+			[
+				"pho",
+				"phone_number"
+			],
+			[
+				"JSON",
+				"parseJson(json)	util.js"
+			],
+			[
+				"erro",
+				"error(dtnode, XMLHttpRequest, textStatus, errorThrown)	jquery.dynatree.js"
+			],
+			[
+				"respon",
+				"isErrorResponse(xhr, response)	handler.xhr.js"
+			],
+			[
+				"er",
+				"errors"
+			],
+			[
+				"com",
+				"columnList"
+			],
+			[
+				"Schema",
+				"Schema-getColumnListing	Schema-getColumnListing"
+			],
+			[
+				"aja",
+				"ajax(data, callback)	openhandler.js"
+			],
+			[
+				"Redirect",
+				"Redirect-route	Redirect-route"
+			],
+			[
+				"pe",
+				"pembelian"
+			],
+			[
+				"tanp",
+				"tanpaResepBtn	_app.js"
+			],
+			[
+				"deng",
+				"denganResepBtn	_app.js"
+			],
+			[
+				"confi",
+				"confirm(question, callBack)	misc.js"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"hasil",
+				"hasilAngka	konversi.js"
+			],
+			[
+				"click",
+				"click(e)	bootstrap-datepicker.js"
+			],
+			[
+				"FOrm",
+				"Form-checkbox	Form-checkbox"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"function",
+				"map(function(aSome) {"
+			],
+			[
+				"Res",
+				"Response-json	Response-json"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"oauth_toke",
+				"oauth_token_secret"
+			],
+			[
+				"Rotue",
+				"Route-get	Route-get"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"oat",
+				"oauth_verifier"
+			],
+			[
+				"to",
+				"token"
+			],
+			[
+				"_post",
+				"_postTwitHeight	_dashboard.js"
+			],
+			[
+				"key",
+				"keyup(e)	bootstrap.js"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"turu",
+				"turunan1"
+			],
+			[
+				"turun",
+				"turunan2"
+			],
+			[
+				"turunan",
+				"turunan1"
+			],
+			[
+				"_in",
+				"_input	_landingpage.js"
+			],
+			[
+				"_sle",
+				"_selectedImage	_landingpage.js"
+			],
+			[
+				"prevent",
+				"preventDefault()	prototype-adapter.src.js"
+			],
+			[
+				"Rou",
+				"Route-group	Route-group"
+			],
+			[
+				"For",
+				"Form-open	Form-open"
+			],
+			[
+				"str",
+				"strlen"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"verifi",
+				"twitter_oauth_verifier"
+			],
+			[
+				"Inpu",
+				"Input-all	Input-all"
+			],
+			[
+				"time",
+				"timeline"
+			],
+			[
+				"App",
+				"App-abort	App-abort"
+			],
+			[
+				"on",
+				"onlyCheck"
+			],
+			[
+				"x",
+				"x1"
+			],
+			[
+				"Redi",
+				"Redirect-to	Redirect-to"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/html/website/gktms_kalsel/application/controllers/dashboard.php",
+			"settings":
+			{
+				"buffer_size": 7439,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/html/website/gktms_kalsel/application/controllers/user.php",
+			"settings":
+			{
+				"buffer_size": 3581,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 46 files for \"session\"\n\n/var/www/html/website/gktms_kalsel/application/views/page/header.php:\n  121                  </div>\n  122                  <a class=\"dropdown-toggle options\" data-toggle=\"dropdown\" href=\"#\">\n  123:                   <?php echo $this->session->userdata(\"k_usrnama\"); ?> <i class=\"fa fa-caret-down\"></i>\n  124                  </a>\n  125                  \n  ...\n  226                    </li>\n  227  \n  228:                   <?php if ($this->session->userdata(\"webmaster\") !== '0' ) { ?>\n  229  \n  230                    <!-- batas tahanan -->\n  ...\n  262                      </ul>\n  263                    </li>                  \n  264:                   <?php if ($this->session->userdata(\"webmaster\") == '1'): ?>\n  265                    <!-- batas user -->\n  266                    <?php if (isPage('user', 1)) { ?>\n\n/var/www/html/website/gktms_kalsel/application/views/page/tahanan_baru.php:\n   27  								<input type=\"hidden\" name=\"id\"  value=\"<?php echo $tahanan->id; ?>\">\n   28  							<?php endif ?>\n   29: 						  <input type=\"hidden\" name=\"kesatuan_id\" value=\"<?php echo $this->session->userdata('k_satuan'); ?>\">\n   30  							<div class=\"row\">\n   31  								<div class=\"col-lg-6\">\n\n/var/www/html/website/gktms_kalsel/application/views/page/tahanan_baru2.php:\n   91                                </div>\n   92  \n   93:                               <input type=\"hidden\" name=\"kesatuan\" value=\"<?php echo $this->session->userdata('k_satuan'); ?>\">\n   94  \n   95                              </form>\n\n5 matches across 3 files\n",
+			"settings":
+			{
+				"buffer_size": 1572,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/var/www/html/website/gktms_kalsel/application/controllers/login.php",
+			"settings":
+			{
+				"buffer_size": 1414,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 102.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax:PHP",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 583.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/website/gktms_kalsel",
+		"/var/www/html/website/gktms_kalsel/application",
+		"/var/www/html/website/gktms_kalsel/application/controllers",
+		"/var/www/html/website/gktms_kalsel/application/views"
+	],
+	"file_history":
+	[
+		"/var/www/html/website/gktms_kalsel/application/controllers/lp.php",
+		"/var/www/html/website/gktms_kalsel/application/views/page/auth.php",
+		"/var/www/html/website/gktms_kalsel/application/views/page/header.php",
+		"/home/admins/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
+		"/var/www/html/website/itats/app/views/front/errors/404.xml",
+		"/var/www/html/website/itats/app/views/front/errors/401.xml",
+		"/var/www/html/website/itats/app/views/test.xml",
+		"/var/www/html/website/itats/phpunit.xml",
+		"/var/www/html/website/itats/.gitattributes",
+		"/var/www/html/website/itats/app/filters.php",
+		"/var/www/html/website/itats/vendor/phpseclib/phpseclib/phpseclib/File/X509.php",
+		"/var/www/html/website/itats/app/tests/TestCase.php",
+		"/var/www/html/website/itats/vendor/twig/twig/lib/Twig/TokenParser.php",
+		"/var/www/html/website/itats/vendor/monolog/monolog/tests/Monolog/PsrLogCompatTest.php",
+		"/var/www/html/website/itats/vendor/symfony/css-selector/Symfony/Component/CssSelector/CssSelector.php",
+		"/var/www/html/website/itats/vendor/predis/predis/bin/create-single-file",
+		"/var/www/html/website/itats/CONTRIBUTING.md",
+		"/var/www/html/website/itats/vendor/twig/twig/lib/Twig/Node/SetTemp.php",
+		"/var/www/html/website/itats/vendor/nesbot/carbon/tests/StartEndOfTest.php",
+		"/var/www/html/website/itats/vendor/predis/predis/lib/Predis/ServerException.php",
+		"/var/www/html/website/itats/vendor/predis/predis/lib/Predis/Command/ListPushHeadX.php",
+		"/var/www/html/website/itats/app/views/front/template/component/head.xml",
+		"/var/www/html/website/itats/vendor/swiftmailer/swiftmailer/doc/headers.rst",
+		"/var/www/html/website/itats/vendor/predis/predis/lib/Predis/Command/HashGetAll.php",
+		"/var/www/html/website/itats/app/controllers/BaseController.php",
+		"/var/www/html/website/itats/vendor/nikic/php-parser/lib/PHPParser/BuilderAbstract.php",
+		"/var/www/html/website/itats/vendor/swiftmailer/swiftmailer/lib/swift_init.php",
+		"/var/www/html/website/itats/app/views/front/template/component/sidebar.xml",
+		"/var/www/html/website/untag/app/controllers/MahasiswasController.php",
+		"/var/www/html/website/untag/app/views/front/users/component/step.xml",
+		"/var/www/html/website/untag/app/views/front/mahasiswas/create.xml",
+		"/var/www/html/website/untag/app/views/front/mahasiswas/component/step.xml",
+		"/var/www/html/website/untag/app/views/front/users/create.xml",
+		"/var/www/html/website/untag/app/views/front/mahasiswas/message_list.xml",
+		"/var/www/html/website/untag/app/views/front/mahasiswas/Mahasiswa.php",
+		"/var/www/html/website/untag/app/views/front/users/show.xml",
+		"/var/www/html/website/untag/app/views/front/template/component/sidebar.xml",
+		"/var/www/html/website/untag/app/views/front/template/component/header.xml",
+		"/var/www/html/website/untag/app/config/fileControl.php",
+		"/var/www/html/website/untag/app/views/front/users/create2.xml",
+		"/var/www/html/website/untag/app/filters.php",
+		"/var/www/html/website/untag/vendor/swiftmailer/swiftmailer/doc/headers.rst",
+		"/var/www/html/website/untag/vendor/predis/predis/lib/Predis/Command/HashExists.php",
+		"/var/www/html/website/untag/app/controllers/HomeController.php",
+		"/var/www/html/website/untag/vendor/swiftmailer/swiftmailer/lib/swift_init.php",
+		"/var/www/html/website/untag/app/controllers/UsersController.php",
+		"/var/www/html/website/untag/app/views/front/users/create3.xml",
+		"/var/www/html/website/untag/CONTRIBUTING.md",
+		"/var/www/html/website/untag/vendor/symfony/security-core/Symfony/Component/Security/Core/User/UserChecker.php",
+		"/var/www/html/website/untag/app/views/front/template/user/login.xml",
+		"/var/www/html/website/untag/vendor/predis/predis/examples/SimpleDebuggableConnection.php",
+		"/var/www/html/website/untag/server.php",
+		"/var/www/html/website/untag/app/storage/views/twig/de/68/2d8d89558dbf87b271f9bf4304a6223f85db19ddd2cba167c849606cd24e.php",
+		"/var/www/html/website/untag/app/storage/views/twig/a3/42/36c49d516c3fad90b845df2bc85de9c9ea25bc00c52f5850de1b49139c78.php",
+		"/var/www/html/website/untag/app/storage/views/twig/02/b7/537ac4dd6cf3810a5c23d8538749e714f5fa1bd2a85027d39f837e3db843.php",
+		"/var/www/html/website/untag/app/views/front/template/component/head.xml",
+		"/var/www/html/website/untag/app/views/front/template/base.xml",
+		"/var/www/html/website/untag/app/routes.php",
+		"/var/www/html/website/untag/app/storage/logs/laravel.log",
+		"/var/www/html/website/untag/vendor/twig/twig/doc/templates.rst",
+		"/var/www/html/website/untag/vendor/rcrowe/twigbridge/src/TwigBridge/Engines/TwigEngine.php",
+		"/var/www/html/website/untag/app/views/test.xml",
+		"/var/www/html/website/untag/vendor/nikic/php-parser/lib/PHPParser/Node/Expr/LogicalOr.php",
+		"/var/www/html/website/untag/app/start/local.php",
+		"/var/www/html/website/untag/public/packages/maximebf/php-debugbar/openhandler.css",
+		"/var/www/html/website/untag/app/config/local/database.php",
+		"/var/www/html/website/untag/bootstrap/start.php",
+		"/var/www/html/website/untag/app/models/Setting.php",
+		"/var/www/html/website/untag/app/database/seeds/ItatsTableSeeder.php",
+		"/var/www/html/website/untag/app/models/Userdata.php",
+		"/var/www/html/website/untag/app/database/migrations/2014_08_21_054822_create_dosens_table.php",
+		"/var/www/html/website/untag/app/database/migrations/2014_08_21_054835_create_jurusans_table.php",
+		"/var/www/html/website/latihanKuliah/sekolah untag/databaseBloogo.sql",
+		"/var/www/html/website/latihanKuliah/sekolah untag/app/database/seeds/SettingsTableSeeder.php",
+		"/var/www/html/website/latihanKuliah/sekolah untag/app/database/seeds/UsersTableSeeder.php",
+		"/var/www/html/website/latihanKuliah/sekolah untag/app/database/seeds/DatabaseSeeder.php",
+		"/var/www/html/website/latihanKuliah/sekolah untag/app/database/migrations/2014_08_21_054835_create_fakultas_table.php",
+		"/var/www/html/website/latihanKuliah/sekolah untag/app/database/migrations/2014_08_21_054835_create_jurusans_table.php",
+		"/var/www/html/website/latihanKuliah/sekolah untag/app/database/migrations/2014_08_21_054822_create_mahasiswas_table.php",
+		"/var/www/html/website/latihanKuliah/sekolah untag/app/database/migrations/2014_08_21_054822_create_dosens_table.php",
+		"/var/www/html/website/latihanKuliah/sekolah untag/app/database/migrations/2014_08_21_055853_create_setting_table.php",
+		"/var/www/html/website/latihanKuliah/sekolah untag/app/database/migrations/2014_08_21_055827_create_categories_table.php",
+		"/var/www/html/website/latihanKuliah/sekolah untag/app/database/migrations/2014_08_21_055841_create_postcategories_table.php",
+		"/var/www/html/website/itats/vendor/laravel/framework/src/Illuminate/Auth/UserInterface.php",
+		"/var/www/html/website/itats/app/controllers/UsersController.php",
+		"/var/www/html/website/Wakuwakuw/public/assets/timeline/timeline.js",
+		"/var/www/html/website/Wakuwakuw/app/views/modules/timeline/sharebutton.tpl",
+		"/var/www/html/website/Wakuwakuw/app/views/modules/timeline_list.tpl",
+		"/var/www/html/website/Wakuwakuw/vendor/twig/twig/lib/Twig/TestInterface.php",
+		"/var/www/html/website/Wakuwakuw/public/assets/timeline/timeline.css",
+		"/var/www/html/website/Wakuwakuw/app/views/modules/timeline.tpl",
+		"/var/www/html/website/polres_barelang/assets/js/jquery-1.8.3.min.js",
+		"/var/www/html/website/polres_barelang/application/views/page/auth.php",
+		"/var/www/html/website/Wakuwakuw/public/assets/js/wakuwSocialMedia.js",
+		"/var/www/html/website/Wakuwakuw/public/assets/js/wakuwakuw.js",
+		"/var/www/html/website/Wakuwakuw/public/assets/js/wakuEditor.js",
+		"/var/www/html/website/Wakuwakuw/app/models/WakuModel.php",
+		"/var/www/html/website/Wakuwakuw/app/routes/no-auth/04_community_route.php",
+		"/var/www/html/website/Wakuwakuw/vendor/laravel/framework/src/Illuminate/Foundation/Console/RoutesCommand.php",
+		"/var/www/html/website/Wakuwakuw/app/routes.php",
+		"/var/www/html/website/Wakuwakuw/public/assets/css/_partial/community_themes.css",
+		"/var/www/html/website/Wakuwakuw/app/controllers/CommunitiesController.php",
+		"/var/www/html/website/itats/app/models/Image.php",
+		"/var/www/html/website/itats/app/models/User.php",
+		"/var/www/html/website/itats/app/controllers/ImagesController.php",
+		"/var/www/html/website/itats/vendor/composer/autoload_psr4.php",
+		"/var/www/html/website/itats/app/config/acl.php",
+		"/var/www/html/website/itats/app/views/front/users/create.xml",
+		"/var/www/html/website/itats/vendor/phpseclib/phpseclib/build/code-sniffer-ruleset.xml",
+		"/var/www/html/website/itats/app/config/app.php",
+		"/var/www/html/website/itats/app/views/front/users/show.xml",
+		"/var/www/html/website/itats/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/UsAsciiReader.php",
+		"/var/www/html/website/itats/vendor/twig/twig/doc/tags/use.rst",
+		"/var/www/html/website/itats/public/js/_settings.js",
+		"/var/www/html/website/itats/public/js/_users.js",
+		"/var/www/html/website/gktms_kalsel/application/config/constants.php",
+		"/var/www/html/website/gktms_kalsel/system/core/Controller.php",
+		"/var/www/html/website/gktms_kalsel/application/config/config.php",
+		"/var/www/html/website/gktms_kalsel/application/config/autoload.php",
+		"/var/www/html/website/gktms_kalsel/application/config/hooks.php",
+		"/var/www/html/website/polres_barelang/.htaccess",
+		"/var/www/html/website/polres_barelang/application/config/constants.php",
+		"/var/www/html/website/gktms_kalsel/application/views/page/tahanan.php",
+		"/var/www/html/website/gktms_kalsel/application/controllers/login.php",
+		"/var/www/html/website/gktms_kalsel/system/core/Common.php",
+		"/var/www/html/website/gktms_kalsel/application/controllers/tahanan.php",
+		"/var/www/html/website/gktms_kalsel/application/controllers/user.php",
+		"/var/www/html/website/gktms_kalsel/application/views/page/user_baru.php"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 134.0,
+		"where_history":
+		[
+			"/var/www/html/website/gktms_kalsel/application/views",
+			"/var/www/html/website/untag/app/views/front",
+			"/var/www/html/website/untag/app/views",
+			"/var/www/html/website/untag",
+			"/var/www/html/website/itats",
+			"/var/www/html/website/gktms_kalsel",
+			"/var/www/html/website/gktms_kalsel/application/views/page",
+			"/var/www/html/website/2014_muliacare/app/views/front",
+			"/var/www/html/website/Wakuwakuw/app/views/modules",
+			"style=\"width:594px;\"",
+			"/var/www/html/website/Wakuwakuw/app/views/modules",
+			"/var/www/html/website/gktms_kalsel",
+			"/var/www/html/website/gktms_kalsel/application",
+			"/var/www/html/website/gktms_kalsel/application/views",
+			"/var/www/html/website/gktms_kalsel",
+			"/var/www/html/website/gktms_kalsel/application",
+			"/var/www/html/website/itats/public",
+			"/var/www/html/website/Wakuwakuw/app/routes",
+			"/var/www/html/website/gktms_kalsel/application/views/page",
+			"/var/www/html/website/gktms_kalsel/application/views",
+			"/var/www/html/website/Wakuwakuw/app/views/modules",
+			"/var/www/html/website/gktms_kalsel",
+			"/var/www/html/website/arryangga/public/member/css/sass/bootstrap",
+			"/var/www/html/website/arryangga/public/member/css/sass/bootstrap/mixins",
+			"/var/www/html/website/Wakuwakuw/app/routes",
+			"/var/www/html/website/gktms_kalsel/application/config",
+			"/var/www/html/website/itats/app",
+			"/var/www/html/website/gktms_kalsel/application/views/page",
+			"/var/www/html/website/gktms_kalsel/application/views",
+			"/var/www/html/website/gktms_kalsel",
+			"/var/www/html/website/gktms_kalsel/application",
+			"/var/www/html/website/gktms_kalsel",
+			"/var/www/html/foola/vendor/thujohn/twitter",
+			"/var/www/html/foola/public/sass/bootstrap",
+			"/var/www/html/website/Wakuwakuw/app/views",
+			"/var/www/html/website/Wakuwakuw/app/views/modules",
+			"/var/www/html/website/Wakuwakuw/vendor/tijsverkoyen",
+			"/var/www/html/website/Wakuwakuw/vendor",
+			"/var/www/html/website/Wakuwakuw/public/assets/js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"session",
+			"user",
+			"users",
+			"Pegawai",
+			"user",
+			"userdatas",
+			"users",
+			"last_name",
+			"nip",
+			"akun",
+			"user",
+			"users.",
+			"Userdata",
+			"user",
+			"User",
+			"User::",
+			"Pegawai",
+			"pegawai",
+			"Pegawai",
+			"class=\"logo",
+			"header",
+			"mini-logo-itats",
+			"getConfiguration",
+			"Setting::find",
+			"jurusans",
+			"matakuliahs",
+			"posts",
+			"dosen",
+			"users",
+			"show",
+			"url",
+			"img",
+			"newsletterPo",
+			"URL::to('/')",
+			"public_path()",
+			" $",
+			"image",
+			"mae",
+			"public_path",
+			"Input",
+			"200",
+			"gif",
+			"debug",
+			"$getId",
+			"button",
+			"span",
+			"hapus",
+			"kesatuan_nama",
+			"kesatuan",
+			"usr",
+			"mobile",
+			"event",
+			"Event",
+			"event",
+			"events",
+			"createMeetup",
+			"eventData",
+			"meetupData",
+			"createMeetup",
+			"Meetup",
+			"'event'",
+			"meetup",
+			"'event'",
+			"meetup",
+			"saveasDraft",
+			"$all",
+			"store(",
+			"background",
+			"backgrou",
+			"kesatuan_id",
+			"Pengguna",
+			"usr",
+			"user",
+			"$tahanan",
+			"webmaster",
+			"kesatuan_id",
+			"usr_nama",
+			"nama_penyidik",
+			"nama",
+			"kesatuan",
+			"userdata(\"k_status\")",
+			"setSetUsrSess",
+			"informasi tahanan",
+			"crime clea",
+			"mailType",
+			"plain",
+			"showPhotoPreview",
+			"photoTimelineUpload",
+			"cat",
+			"products.",
+			"product",
+			"Product",
+			"product",
+			"Product",
+			".products",
+			"edit",
+			"products.edit",
+			"products.",
+			".products",
+			".products.",
+			"index",
+			"admin.products.index",
+			".products.",
+			"products",
+			"product",
+			"Product",
+			"product",
+			"Product",
+			"product",
+			"Product",
+			"products",
+			"DVD",
+			"blog",
+			"Blog",
+			"Article",
+			"article",
+			"Article",
+			"dvd",
+			"DVD",
+			"Product",
+			"dvd",
+			"DVD",
+			"sewadvd",
+			"customer",
+			"500",
+			"x1",
+			"bahan_bakar",
+			"uang"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"logo-untag",
+			"594px",
+			"underline text-left text-something",
+			"",
+			"_baseUrl + \"bg1.jpg\"",
+			"<script src=\"<?php echo _JS; ?>jquery-1.8.3.min.js\"></script>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/html/website/gktms_kalsel/application/controllers/dashboard.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7439,
+								7439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 686.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/html/website/gktms_kalsel/application/controllers/user.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								792,
+								792
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 583.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1572,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										268,
+										275
+									],
+									[
+										475,
+										482
+									],
+									[
+										707,
+										714
+									],
+									[
+										1124,
+										1131
+									],
+									[
+										1459,
+										1466
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/html/website/gktms_kalsel/application/controllers/login.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 675.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "kalsel.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"login",
+				"application/controllers/login.php"
+			],
+			[
+				"auth",
+				"application/views/page/auth.php"
+			],
+			[
+				".xml",
+				"app/views/front/errors/401.xml"
+			],
+			[
+				".css",
+				"public/css/plugin/step.css"
+			],
+			[
+				"setting.ph",
+				"app/models/Setting.php"
+			],
+			[
+				"head.xml",
+				"app/views/front/template/component/head.xml"
+			],
+			[
+				"sidebar",
+				"app/views/front/template/component/sidebar.xml"
+			],
+			[
+				"_user",
+				"public/js/_users.js"
+			],
+			[
+				"file",
+				"app/config/fileControl.php"
+			],
+			[
+				"header.xml",
+				"app/views/front/template/component/header.xml"
+			],
+			[
+				"header",
+				"vendor/swiftmailer/swiftmailer/doc/headers.rst"
+			],
+			[
+				"usershow",
+				"app/views/front/users/show.xml"
+			],
+			[
+				"userdata",
+				"app/models/Userdata.php"
+			],
+			[
+				"create2",
+				"app/views/front/users/create2.xml"
+			],
+			[
+				"usercreate",
+				"app/views/front/users/create.xml"
+			],
+			[
+				"login.",
+				"app/views/front/template/user/login.xml"
+			],
+			[
+				"template/com",
+				"app/views/front/template/component/head.xml"
+			],
+			[
+				"template/base",
+				"app/views/front/template/base.xml"
+			],
+			[
+				"userscon",
+				"app/controllers/UsersController.php"
+			],
+			[
+				"userindex",
+				"app/views/front/users/index.xml"
+			],
+			[
+				"timeline.js",
+				"public/assets/timeline/timeline.js"
+			],
+			[
+				"timeline.",
+				"app/views/modules/timeline.tpl"
+			],
+			[
+				"wakuwmai",
+				"public/assets/js/wakuwEmail.js"
+			],
+			[
+				"routescommunit",
+				"app/routes/secure-group/08_community_route.php"
+			],
+			[
+				"communitiescon",
+				"app/controllers/CommunitiesController.php"
+			],
+			[
+				"routes",
+				"app/routes.php"
+			],
+			[
+				"app",
+				"app/config/app.php"
+			],
+			[
+				"create3",
+				"app/views/front/users/create3.xml"
+			],
+			[
+				"f",
+				"app/filters.php"
+			],
+			[
+				"usersco",
+				"app/controllers/UsersController.php"
+			],
+			[
+				"_users",
+				"public/js/_users.js"
+			],
+			[
+				"contst",
+				"polres_barelang/application/config/constants.php"
+			],
+			[
+				"auth.php",
+				"polres_barelang/application/views/page/auth.php"
+			],
+			[
+				"header.",
+				"polres_barelang/application/views/page/header.php"
+			],
+			[
+				"commo",
+				"system/core/Common.php"
+			],
+			[
+				"consta",
+				"application/config/constants.php"
+			],
+			[
+				"header.php",
+				"application/views/page/header.php"
+			],
+			[
+				"auth.",
+				"application/views/page/auth.php"
+			],
+			[
+				"kesatuan_bar",
+				"application/views/page/kesatuan_baru.php"
+			],
+			[
+				"kesatuan.p",
+				"application/views/page/kesatuan.php"
+			],
+			[
+				"filter",
+				"app/filters.php"
+			],
+			[
+				"eventscont",
+				"app/controllers/EventsController.php"
+			],
+			[
+				"eventedit",
+				"app/views/modules/event/edit.tpl"
+			],
+			[
+				"eventcreate",
+				"app/views/modules/event/create.tpl"
+			],
+			[
+				"langwaku",
+				"app/lang/id/waku.php"
+			],
+			[
+				"meetupedit",
+				"app/views/modules/meetup/edit.tpl"
+			],
+			[
+				"wakuw",
+				"public/assets/js/wakuwakuw.js"
+			],
+			[
+				"langwak",
+				"app/lang/en/waku.php"
+			],
+			[
+				"modules/partial/asset_mokki_editor",
+				"app/views/modules/partial/asset_mokki_editor.tpl"
+			],
+			[
+				"meetupcreate",
+				"app/views/modules/meetup/create.tpl"
+			],
+			[
+				"meetupscont",
+				"app/controllers/MeetupsController.php"
+			],
+			[
+				"b",
+				"app/controllers/BaseController.php"
+			],
+			[
+				"communitiescont",
+				"app/controllers/CommunitiesController.php"
+			],
+			[
+				"heade",
+				"application/views/page/header.php"
+			],
+			[
+				"tahananbaru",
+				"application/views/page/tahanan_baru.php"
+			],
+			[
+				"userbaru",
+				"application/views/page/user_baru.php"
+			],
+			[
+				"modelkre",
+				"application/models/kreasi.php"
+			],
+			[
+				"user.ph",
+				"application/controllers/user.php"
+			],
+			[
+				"newslettercreate",
+				"app/views/modules/community_detail/manage/newsletter_create.tpl"
+			],
+			[
+				"apptemp",
+				"app/models/app/AppTemplate.php"
+			],
+			[
+				"communities",
+				"app/controllers/CommunitiesController.php"
+			],
+			[
+				"wakuwkuw.js",
+				"public/assets/js/wakuwakuw.js"
+			],
+			[
+				"timelin.",
+				"app/views/modules/timeline.tpl"
+			],
+			[
+				"adminpagescon",
+				"app/controllers/admin/AdminPagesController.php"
+			],
+			[
+				"pagesconto",
+				"app/controllers/PagesController.php"
+			],
+			[
+				"pageedit",
+				"app/views/admin/page/edit.xml"
+			],
+			[
+				"pagecreate",
+				"app/views/admin/page/create.xml"
+			],
+			[
+				"frontnav",
+				"app/views/front/template/nav.xml"
+			],
+			[
+				"blogedit",
+				"app/views/admin/blog/edit.xml"
+			],
+			[
+				"blogcreate",
+				"app/views/admin/blog/create.xml"
+			],
+			[
+				"productindex",
+				"app/views/admin/product/index.xml"
+			],
+			[
+				"productedit",
+				"app/views/admin/product/edit.xml"
+			],
+			[
+				"productphotoedit",
+				"app/views/admin/productphoto/edit.xml"
+			],
+			[
+				"productcreate",
+				"app/views/admin/product/create.xml"
+			],
+			[
+				"adminproductsco",
+				"app/controllers/admin/AdminProductsController.php"
+			],
+			[
+				"adminpro",
+				"app/controllers/admin/AdminProductcatsController.php"
+			],
+			[
+				"adminnav.",
+				"app/views/admin/template/nav.xml"
+			],
+			[
+				"adminnav",
+				"app/views/admin/template/nav.xml"
+			],
+			[
+				"bloged",
+				"app/views/admin/blog/edit.xml"
+			],
+			[
+				"admin/home/dashboard/blogpost",
+				"app/views/admin/home/dashboard/blogPost.xml"
+			],
+			[
+				"dashbao",
+				"app/views/admin/home/dashboard.xml"
+			],
+			[
+				"wakuwakuw.js",
+				"public/assets/js/wakuwakuw.js"
+			],
+			[
+				"tahanan_bar",
+				"application/views/page/tahanan_baru.php"
+			],
+			[
+				"barang",
+				"assets/js/barang_bukti.js"
+			],
+			[
+				"f_tahana",
+				"application/views/page/f_tahanan.php"
+			],
+			[
+				"tahanan_de",
+				"application/views/page/tahanan_detail.php"
+			],
+			[
+				"helper",
+				"application/helpers/kreasi_helper.php"
+			],
+			[
+				"tahanan.",
+				"application/controllers/tahanan.php"
+			],
+			[
+				"locationedit",
+				"app/views/admin/location/edit.xml"
+			],
+			[
+				"locationcreate",
+				"app/views/admin/location/create.xml"
+			],
+			[
+				"front/template/header",
+				"app/views/front/template/header.xml"
+			],
+			[
+				"style.cs",
+				"public/css/style.css"
+			],
+			[
+				"product.php",
+				"app/models/Product.php"
+			],
+			[
+				"appdatabase",
+				"app/config/local/database.php"
+			],
+			[
+				"userstable",
+				"app/database/seeds/UsersTableSeeder.php"
+			],
+			[
+				"mini",
+				"assets/css/minimal.css"
+			],
+			[
+				"min",
+				"assets/css/minimal.css"
+			],
+			[
+				"minim",
+				"assets/css/minimal.css"
+			],
+			[
+				"minima",
+				"assets/css/minimal.css"
+			],
+			[
+				"tahanande",
+				"application/views/page/tahanan_detail.php"
+			],
+			[
+				"barang_",
+				"application/views/page/barang_bukti.php"
+			],
+			[
+				"taa",
+				"application/controllers/tahanan.php"
+			],
+			[
+				"tahanan_deta",
+				"application/views/page/tahanan_detail.php"
+			],
+			[
+				"tahanan",
+				"application/controllers/tahanan.php"
+			],
+			[
+				"tahanan_baru",
+				"application/views/page/tahanan_baru.php"
+			],
+			[
+				"user.php",
+				"app/models/User.php"
+			],
+			[
+				"userscont",
+				"app/controllers/UsersController.php"
+			],
+			[
+				"lp_td",
+				"application/views/page/lp_detail.php"
+			],
+			[
+				"lp",
+				"application/controllers/lp.php"
+			],
+			[
+				"meetupedit.tpl",
+				"app/views/modules/meetup/edit.tpl"
+			],
+			[
+				"meetupcreate.tpl",
+				"app/views/modules/meetup/create.tpl"
+			],
+			[
+				"edit.tpl",
+				"app/views/modules/community/edit.tpl"
+			],
+			[
+				"formed",
+				"app/views/modules/community/blocks/formEdit.tpl"
+			],
+			[
+				"formcreate",
+				"app/views/modules/community/blocks/formCreate.tpl"
+			],
+			[
+				"mokki",
+				"public/assets/resources/mokki_asset/mokki_js/core.js"
+			],
+			[
+				"constatns",
+				"application/config/constants.php"
+			],
+			[
+				"contsta",
+				"application/controllers/tahanan.php"
+			],
+			[
+				"tahanan.p",
+				"application/controllers/tahanan.php"
+			],
+			[
+				"kreas",
+				"application/models/kreasi.php"
+			],
+			[
+				"prof",
+				"application/config/profiler.php"
+			],
+			[
+				"input.",
+				"system/core/Input.php"
+			],
+			[
+				"controllertahanan",
+				"application/controllers/tahanan.php"
+			],
+			[
+				"formcreate.",
+				"app/views/modules/community/blocks/formCreate.tpl"
+			],
+			[
+				"communitycreate",
+				"app/views/modules/community/create.tpl"
+			],
+			[
+				"emailcreate",
+				"app/views/modules/community_detail/manage/email_create.tpl"
+			],
+			[
+				"appsocial",
+				"app/models/app/AppSocial.php"
+			],
+			[
+				"tahanan_detail",
+				"application/views/page/tahanan_detail.php"
+			],
+			[
+				"constas",
+				"application/config/constants.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/var/www/html/website/itats/app/views/front/errors/kalsel.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

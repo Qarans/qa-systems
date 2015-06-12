@@ -1,0 +1,36 @@
+{% extends 'front/template/user/main' %}
+
+{% block singleScript %}
+	{{HTML_script('js/_admins.js')|raw}}
+{% endblock %}
+
+{% block content %}
+<div class="row">
+	<div class="col-lg-8 col-lg-offset-2">
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#home" data-toggle="tab">Akun</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="home">
+						<table class="table table-bordered table-tampil-user">
+							<tr>
+								<td>Name</td>
+								<td>{{admin.name}}</td>
+							</tr>
+							<tr>
+								<td>Email</td>
+								<td>{{admin.email}}</td>
+							</tr>
+						</table>
+						<br/>
+						{{HTML_link(URL_route('admins.edit', admin.id), 'Ubah Akun', {'class':'btn btn-warning'})|raw}}
+					</div>
+				</div>			
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

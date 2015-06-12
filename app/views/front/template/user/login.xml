@@ -1,0 +1,43 @@
+{% extends 'front/template/base' %}
+
+{% block singleScript %}
+	{{HTML_script('js/plugin/jquery.backstretch.min.js')|raw}}
+	{{HTML_script('js/_homepage.js')|raw}}
+{% endblock %}
+
+{% block baseContent %}
+		<div class="blackBackLayer"></div>
+        <div class="form-box" id="login-box">
+            <div class="header">{{HTML_image('img/logo.png', 'USG Boral')|raw}}</div>
+            {{Form_open()|raw}}
+                <div class="body bg-gray">
+                    {% if Session_has('error') %}
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="alert alert-danger" style="margin-bottom:0px;">
+                                    {% for e in errors.all() %}
+                                        <li>{{ e }}</li>
+                                    {% endfor %}
+                                        <li>{{Session_get('error')}}</li>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}                    
+                    <div class="form-group">
+						{{Form_text('email', Input_old('email'), {'class':'form-control', 'placeholder':'Masukkan email', 'required':'required'})|raw}}                    
+                    </div>
+                    <div class="form-group">
+						{{Form_password('password', {'class':'form-control', 'placeholder':'Masukkan Password', 'required':'required'})|raw}}                    	
+                    </div>          
+                    <div class="form-group">
+						{{Form_checkbox('remember_me', 'true', false, {'id':'remember_me'})|raw}}
+						<label for="remember_me">Ingatkan Saya</label>                    	
+                    </div>
+	                <div class="form-group">                                         
+	                    <button type="submit" class="btn btn-primary btn-block">Sign me in</button>  
+	                    {# <p><a href="#">I forgot my password</a></p> #}
+	                </div>
+                </div>
+            {{Form_close()|raw}}
+        </div>
+{% endblock %}

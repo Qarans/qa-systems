@@ -1,0 +1,39 @@
+{% extends 'front/template/user/main' %}
+
+{% block singleScript %}
+	{{HTML_style('css/plugin/jcrop/jquery.Jcrop.min.css')|raw}}
+	{{HTML_script('js/plugin/bootstrap-datepicker.js')|raw}}
+	{{HTML_script('js/plugin/jquery.Jcrop.min.js')|raw}}
+	{{HTML_script('js/_products.js')|raw}}
+{% endblock %}
+
+{% block content %}
+	<div class="row">
+		<div class="page-header text-center">
+			<h1>Tambahkan Foto Product 
+				<small>{{product.name}}</small></h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 text-center">
+			<hr></hr>
+		</div>
+		{{Form_open({'url':URL_route('products.update', product.id), 'method':'PUT', 'files':true})|raw}}		
+			{{Form_hidden('photo', 1)|raw}}	
+			{{Form_file('images', {'style':'margin:0px auto', 'id':'imageChange', 'accept':'image/*'})|raw}}
+		<div class="col-lg-12 text-center">
+			{{HTML_image('#', '', {'id':'imageArea', 'class':'target', 'style':'display:none;', 'width':500})|raw}}	
+			{{Form_hidden('x1', '', {'id':'x1'})|raw}}
+			{{Form_hidden('y1', '', {'id':'y1'})|raw}}
+			{{Form_hidden('w', '', {'id':'w'})|raw}}
+			{{Form_hidden('h', '', {'id':'h'})|raw}}			
+		</div>
+		<div class="col-lg-12 text-center">
+			<br/>
+			<br/>
+			<button class="btn btn-lg btn-primary btn-submit">Simpan Foto</button>
+		</div>
+		{{Form_close()|raw}}
+	</div>
+
+{% endblock %}

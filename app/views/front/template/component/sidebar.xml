@@ -1,0 +1,101 @@
+<section class="sidebar">
+	<!-- Sidebar user panel -->
+	<div class="user-panel">
+
+		<div class="pull-left info">
+			<p>{{Auth_user().name}}</p>
+			<small class="text-info">{{Auth_user().email}}</small>
+		</div>
+	</div>
+	<ul class="sidebar-menu">
+
+		<li class="treeview {% if groupPage == 'products' %}active{% endif %}">
+			<a href="#">
+				<i class="fa fa-shopping-cart"></i> <span>Produk & Sistem</span> <i class="fa fa-angle-left pull-right"></i>
+			</a>
+			<ul class="treeview-menu">
+				<li><a href="{{URL_route('products.index')}}?type=1"><i class="fa fa-angle-double-right"></i> Daftar Produk</a></li>
+				<li><a href="{{URL_route('products.create')}}"><i class="fa fa-angle-double-right"></i> Buat Produk Baru</a></li>
+				<li><a href="{{URL_route('products.index')}}?type=2"><i class="fa fa-angle-double-right"></i> Daftar Sistem</a></li>
+				<li><a href="{{URL_route('products.create')}}"><i class="fa fa-angle-double-right"></i> Buat Sistem Baru</a></li>
+			</ul>
+		</li>
+
+		<li class="treeview {% if groupPage == 'categories' %}active{% endif %}">
+			<a href="#">
+				<i class="fa fa-shopping-cart"></i> <span>Kategori Produk</span> <i class="fa fa-angle-left pull-right"></i>
+			</a>
+			<ul class="treeview-menu">
+				<li><a href="{{URL_route('categories.index')}}"><i class="fa fa-angle-double-right"></i> Daftar Kategori</a></li>
+				<li><a href="{{URL_route('categories.create')}}"><i class="fa fa-angle-double-right"></i> Buat Kategori Baru</a></li>
+			</ul>
+		</li>
+
+		<li class="treeview {% if groupPage == 'posts' %}active{% endif %}">
+			<a href="#">
+				<i class="fa fa-list-ul"></i> <span>Posts</span> <i class="fa fa-angle-left pull-right"></i>
+			</a>
+			<ul class="treeview-menu">
+				<li><a href="{{URL_route('posts.index')}}"><i class="fa fa-angle-double-right"></i> Daftar Post</a></li>
+				<li><a href="{{URL_route('posts.create')}}"><i class="fa fa-angle-double-right"></i> Buat Post Baru</a></li>
+			</ul>
+		</li>
+
+		<li class="treeview {% if groupPage == 'brochures' %}active{% endif %}">
+			<a href="#">
+				<i class="fa fa-list-ul"></i> <span>Brochures</span> <i class="fa fa-angle-left pull-right"></i>
+			</a>
+			<ul class="treeview-menu">
+				<li><a href="{{URL_route('brochures.index')}}"><i class="fa fa-angle-double-right"></i> Daftar Brochure</a></li>
+				<li><a href="{{URL_route('brochures.create')}}"><i class="fa fa-angle-double-right"></i> Buat Brochure Baru</a></li>
+			</ul>
+		</li>
+
+		<li class="treeview {% if groupPage == 'videos' %}active{% endif %}">
+			<a href="#">
+				<i class="fa fa-youtube-play"></i> <span>Videos</span> <i class="fa fa-angle-left pull-right"></i>
+			</a>
+			<ul class="treeview-menu">
+				<li><a href="{{URL_route('videos.index')}}"><i class="fa fa-angle-double-right"></i> Daftar Video</a></li>
+				<li><a href="{{URL_route('videos.create')}}"><i class="fa fa-angle-double-right"></i> Tambah Video Baru</a></li>
+			</ul>
+		</li>
+
+		<li class="treeview {% if groupPage == 'locations' %}active{% endif %}">
+			<a href="#">
+				<i class="fa fa-map-marker"></i> <span>Lokasi & Cabang</span> <i class="fa fa-angle-left pull-right"></i>
+			</a>
+			<ul class="treeview-menu">
+				<li><a href="{{URL_route('locations.index')}}"><i class="fa fa-angle-double-right"></i> Daftar Lokasi</a></li>
+				<li><a href="{{URL_route('locations.create')}}"><i class="fa fa-angle-double-right"></i> Buat Lokasi Baru</a></li>
+			</ul>
+		</li>
+
+		<li class="treeview {% if groupPage == 'users' %}active{% endif %}">
+			<a href="#">
+				<i class="fa fa-users"></i> <span>User</span> <i class="fa fa-angle-left pull-right"></i>
+			</a>
+			<ul class="treeview-menu">
+				<li><a href="{{URL_route('users.index')}}"><i class="fa fa-angle-double-right"></i> Daftar User</a></li>
+				<li><a href="{{URL_route('users.create')}}"><i class="fa fa-angle-double-right"></i> Buat User Baru</a></li>
+			</ul>
+		</li>
+
+		{# <li class="treeview {% if groupPage == 'admins' %}active{% endif %}">
+			<a href="#">
+				<i class="fa fa-users"></i> <span>Admin</span> <i class="fa fa-angle-left pull-right"></i>
+			</a>
+			<ul class="treeview-menu">
+				<li><a href="{{URL_route('admins.index')}}"><i class="fa fa-angle-double-right"></i> Daftar Admin</a></li>
+				<li><a href="{{URL_route('admins.create')}}"><i class="fa fa-angle-double-right"></i> Buat Admin Baru</a></li>
+			</ul>
+		</li> #}
+
+		<li class="{% if groupPage == 'pengaturan' %}active{% endif %}">
+			<a href="{{URL_route('setting.about')}}">
+				<i class="fa fa-gear"></i> <span>Pengaturan</span> <i class="fa fa-angle-left pull-right"></i>
+			</a>
+		</li>
+
+	</ul>
+</section>

@@ -1,0 +1,61 @@
+{% extends 'front/template/user/main' %}
+
+{% block singleScript %}
+	{{HTML_script('js/plugin/jquery.form.js')|raw}}
+	{{HTML_script('js/_videos.js')|raw}}
+	{% include 'front/template/component/asset_mokki_editor' %}
+{% endblock %}
+
+{% block content %}
+	<div class="row">
+		<div class="page-header text-center">
+		{% if edit_data %}
+			<h1>Ubah Video</h1>
+		{% else %}
+			<h1>Tambahkan Video baru</h1>
+		{% endif %}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2 messageArea">
+		</div>
+		{% if edit_data %}
+			{{Form_model(video, {'url':URL_route('videos.update', video.id), 'class':'submitUserData', 'method':'PUT', 'files':true})|raw}}
+		{% else %}
+			{{Form_open({'url':URL_route('videos.store'), 'class':'submitUserData', 'files':true})|raw}}
+		{% endif %}
+			<div class="col-lg-8 col-lg-offset-2">
+				<div class="form-group">
+					<div class="row">
+						<div class="col-lg-11">
+							<label for="name">Nama</label>
+							{{Form_text('name', Input_old('name'), {'id':'name', 'placeholder':'Masukkan Nama Brosur', 'class':'form-control'})|raw}}
+							<br/>
+							<br/>
+						</div>
+						<div class="col-lg-11">
+							<label for="youtube_url">Youtube Video URL</label>
+							{{Form_text('youtube_url', Input_old('youtube_url'), {'id':'youtube_url', 'placeholder':'Masukkan URL Youtube disini', 'class':'form-control'})|raw}}
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="row">
+						<div class="col-lg-10">
+							<label for="mokkiTextEmbed">Content</label>
+							<section class="mokkiEditor decription" style="width:662px;">
+								{{Form_textarea('description', Input_old( 'description'), {'id':'mokkiTextEmbed', 'placeholder':'Masukkan Deskripsi Video', 'class':'form-control', 'novalidate':''})|raw}}
+							</section>
+						</div>
+					</div>
+				</div>
+				<div class="form-group text-center">
+					<br/>
+					<br/>
+					<button class="btn btn-lg btn-primary btn-submit">Lanjut <i class="fa fa-chevron-right"></i></button>
+				</div>
+			</div>
+		{{Form_close()|raw}}
+	</div>
+
+{% endblock %}

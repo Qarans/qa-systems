@@ -1,0 +1,52 @@
+<header class="header">
+    <a href="{{URL_route('homepage')}}" class="logo">
+		{{HTML_image('img/logo.png', 'USG Boral', {'style':'  width: 150px; margin-top: -6px;'})|raw}}
+    </a>
+    <!-- Header Navbar: style can be found in header.less -->
+    <nav class="navbar navbar-static-top" role="navigation">
+        <!-- Sidebar toggle button-->
+        <a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+        <div class="navbar-right">
+
+            <ul class="nav navbar-nav">
+           
+                <!-- User Account: style can be found in dropdown.less -->
+                <li class="dropdown user user-menu">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="glyphicon glyphicon-user"></i>
+                        <span>Hai, {{Auth_user().name}} <i class="caret"></i></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <!-- User image -->
+                        <li class="user-header bg-light-blue">
+                            <p>
+                                {{Auth_user().name}}
+                                <small>{{ Auth_user().email }}</small>
+                            </p>
+                        </li>
+                        <!-- Menu Body -->
+                        <li class="user-body">
+                            <div class="col-xs-12 text-center">
+                                <a href="{{URL_route('users.show', Auth_user().id)}}">Lihat Profil</a>
+                            </div>
+                        </li>
+                        <!-- Menu Footer-->
+                        <li class="user-footer">
+                            <div class="pull-left">
+                                <a href="{{URL_route('users.edit', Auth_user().id)}}" class="btn btn-default btn-flat">Ubah Akun</a>
+                            </div>
+                            <div class="pull-right">
+                                <a href="{{URL_route('users.logout')}}" class="btn btn-default btn-flat">Keluar</a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>

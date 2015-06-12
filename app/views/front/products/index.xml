@@ -1,0 +1,89 @@
+{% extends 'front/template/user/main' %}
+
+{% block singleScript %}
+	{{HTML_script('js/plugin/bootstrap-datepicker.js')|raw}}
+	{{HTML_script('js/_products.js')|raw}}
+{% endblock %}
+
+{% block content %}
+	<div class="row">
+		<div class="col-lg-4">
+			<form role="search">
+				<div class="input-group">
+					<input type="text" value="{{Input_get('q')}}" name="q" class="form-control">
+					<span class="input-group-btn">
+						<button class="btn btn-default" type="submit">Cari Data</button>
+					</span>
+				</div>
+			</form>
+		</div>
+		<div class="col-lg-8 text-right">
+			{{paginator|raw}}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="table-responsive">
+				{% if product is not empty %}
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Name</th>
+							<th width="100px">Type</th>
+							<th width="100px">Category</th>
+							<th width="100px">Image</th>
+							<th width="100px"></th>
+						</tr>
+					</thead>
+					<tbody>
+					{% for d in product %}
+						{% set no = no + 1 %}
+						<tr class="listdata" id="{{i}}">
+							<td> {{no}} </td>
+							<td>
+								<h3>{{d.name}}</h3>
+								<small>{{Str_words(d.content|striptags, 20)}}</small>
+							</td>
+							<td>
+								{% if d.type == 1 %}
+									<span class="label label-success">Produk</span>
+								{% else %}
+									<span class="label label-warning">Sistem</span>
+								{% endif %}
+							</td>
+							<td> <a href="?category_id={{d.category.id}}">{{d.category.name}}</a></td>
+							<td> {{HTML_image(GetImageUrl('images/products/' ~ d.id ~ '.png'), d.name, {'width':'100px'})|raw}}</td>
+							<td>
+								<div class="btn-group">
+									<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown"> Action <span class="caret"></span> </button>
+									<ul class="dropdown-menu pull-right" role="menu">
+										<li><a href="{{URL_route('products.show', d.id)}}">Lihat Detail Product</a></li>
+										{% if d.type == 1 %}
+											<li><a href="{{URL_route('products.brochure', d.id)}}">Tambah Brochure</a></li>
+											{% if d.brochure is not empty %}
+												<li><a href="{{URL_to('/')}}/files/brochure/{{d.brochure.file}}">Download Brochure</a></li>
+											{% endif %}
+										{% else %}
+											<li><a href="{{URL_route('products.material', d.id)}}">Atur Material Sistem</a></li>
+										{% endif %}
+										<li><a href="{{URL_route('products.edit', d.id)}}">Ubah Product	</a></li>
+										<li class="divider"></li>
+										<li><a href="{{URL_route('products.deleting', d.id)}}" class="deleteData" id="{{i}}">Delete</a></li>
+									</ul>
+								</div>
+							</td>
+						</tr>
+					{% endfor %}
+					</tbody>
+				</table>
+				{% else %}
+					<div class="alert alert-info">
+						You dont have any data for now, please write new data
+					</div>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+
+{% endblock %}

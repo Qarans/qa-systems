@@ -1,0 +1,9 @@
+{{HTML_script('js/plugin/mokki_asset/mokki_js/core.js')|raw}}
+{{HTML_style('js/plugin/mokki_asset/mokki_style/core.css')|raw}}
+<script type="text/javascript">
+    $(function() {
+    	Mokki.editor('.decription');
+    	// $('.mokki-btn[data-command=viewsource]').hide();
+    	// $('.mokki-btn[data-command=insertImage]').hide();
+    });
+</script>
