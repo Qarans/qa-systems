@@ -8,7 +8,7 @@
 {% block baseContent %}
 		<div class="blackBackLayer"></div>
         <div class="form-box" id="login-box">
-            <div class="header">{{HTML_image('img/logo.png', 'USG Boral')|raw}}</div>
+            <div class="header">{{HTML_image('img/logo.png', 'Qarans', {'width':'235px'})|raw}}</div>
             {{Form_open()|raw}}
                 <div class="body bg-gray">
                     {% if Session_has('error') %}
@@ -22,19 +22,19 @@
                                 </div>
                             </div>
                         </div>
-                    {% endif %}                    
+                    {% endif %}
                     <div class="form-group">
-						{{Form_text('email', Input_old('email'), {'class':'form-control', 'placeholder':'Masukkan email', 'required':'required'})|raw}}                    
+						{{Form_text('email', Input_old('email'), {'class':'form-control', 'placeholder':'Masukkan email', 'required':'required'})|raw}}
                     </div>
                     <div class="form-group">
-						{{Form_password('password', {'class':'form-control', 'placeholder':'Masukkan Password', 'required':'required'})|raw}}                    	
-                    </div>          
+						{{Form_password('password', {'class':'form-control', 'placeholder':'Masukkan Password', 'required':'required'})|raw}}
+                    </div>
                     <div class="form-group">
 						{{Form_checkbox('remember_me', 'true', false, {'id':'remember_me'})|raw}}
-						<label for="remember_me">Ingatkan Saya</label>                    	
+						<label for="remember_me">Ingatkan Saya</label>
                     </div>
-	                <div class="form-group">                                         
-	                    <button type="submit" class="btn btn-primary btn-block">Sign me in</button>  
+	                <div class="form-group">
+	                    <button type="submit" class="btn btn-primary btn-block">Sign me in</button>
 	                    {# <p><a href="#">I forgot my password</a></p> #}
 	                </div>
                 </div>
